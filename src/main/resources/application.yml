@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: String url ="jdbc:mysql://neomysql.mysql.database.azure.com:3306;useSSL=true&requireSSL=false";
+    url: jdbc:mysql://neomysql.mysql.database.azure.com:3306;useSSL=true&requireSSL=false;
     username: neo
     password: 9794740021@Rahul
   jpa:
