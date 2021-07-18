@@ -26,7 +26,10 @@ public class SpringbootAzuresqlApplication {
     public List<Employee> getEmployees() {
         return repository.findAll();
     }
-
+    @GetMapping("/test")
+    public String test() {
+        return "Hello Neo";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(SpringbootAzuresqlApplication.class, args);
