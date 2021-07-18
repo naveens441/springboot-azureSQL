@@ -28,7 +28,7 @@ public class SpringbootAzuresqlApplication {
     }
     @GetMapping("/test")
     public String test() {
-        return "Hello Neod"
+        return "Hello Neod";
     }
 
     public static void main(String[] args) {
