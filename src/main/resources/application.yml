@@ -1,13 +1,13 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://neo-server.database.windows.net:1433;database=neodb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: String url ="jdbc:mysql://neomysql.mysql.database.azure.com:3306;useSSL=true&requireSSL=false";
     username: neo
     password: 9794740021@Rahul
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
-      dialect : org.hibernate.dialect.SQLServer2012Dialect
+      dialect : org.hibernate.dialect.MySQL57Dialect
 
 server:
   port: 9191
